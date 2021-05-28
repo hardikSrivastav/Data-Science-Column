@@ -1,5 +1,5 @@
 from random import random as rand
-'''
+
 # 100 Million
 
 flip_result_100mil = []
@@ -119,7 +119,7 @@ for i in range(11):
 
 sum_of_values_10 = sum(flip_result_10)
 prob_10 = sum_of_values_10/counter_10 * 100
-'''
+
 # Removing chances of Co-incidences
 
 series_100mil = [49.996471, 49.99847, 49.991541, 49.998379, 49.998779, 49.99611, 49.997831, 49.993915, 50.000566, 50.005078999999995]
