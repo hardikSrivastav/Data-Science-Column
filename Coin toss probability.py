@@ -1,3 +1,5 @@
+# The reader might notice that there is great deal of redundancy in this Code, which is, to some degree, intentional. For the admittedly messy yet shorter code that I used on my end, kindly contact me on the my E-Mail address: hardik.srivastava2007@gmail.com
+
 from random import random as rand
 
 # 100 Million
@@ -200,5 +202,5 @@ def errorfill(numbers2, averages, y_err, color='#ff9248', alpha_fill=0.3, ax=Non
     ax.fill_between(numbers2, ymax, ymin, color=color, alpha=alpha_fill)
 
 errorfill(numbers2, averages, y_err)
-#plt.savefig('Proof of Law of Large Numbers', dpi=700)
+plt.savefig('Proof of Law of Large Numbers', dpi=700)
 plt.show()
